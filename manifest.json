@@ -1,0 +1,13 @@
+{
+  "name": "Linkedin flow",
+  "description": "Cold outreach tool to write personalized linkedin messages.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "src/popup/index.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "src/new-tab/index.html"
+  },
+  "permissions": ["storage"]
+}
